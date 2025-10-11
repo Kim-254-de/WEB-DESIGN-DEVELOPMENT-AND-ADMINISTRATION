@@ -1,6 +1,7 @@
 WEB DESIGN, DEVELOPMENT AND ADMINISTRATION
 
 OVERVIEW
+
 This project demonstrates foundational and intermediate concepts in web development, design, and website administration. It showcases the creation of a functional, well-designed web application that applies front-end and back-end development principles along with website management practices.
 
 OBJECTIVES
@@ -18,8 +19,11 @@ To follow proper web project structure and documentation standards.
 AUTHOR
 
 NAME : Emmanuel Kimathi
+
 CLASS : BSC. Computer Science
+
 YEAR : 2.1
+
 INSTITUTION : Tharaka University
 
 LICENSE
