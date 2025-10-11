@@ -1,10 +1,9 @@
 WEB DESIGN, DEVELOPMENT AND ADMINISTRATION
 
-Overview
-
+OVERVIEW
 This project demonstrates foundational and intermediate concepts in web development, design, and website administration. It showcases the creation of a functional, well-designed web application that applies front-end and back-end development principles along with website management practices.
 
-Objectives
+OBJECTIVES
 
 To apply core HTML, CSS, and JavaScript skills in creating an interactive website.
 
