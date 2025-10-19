@@ -4,12 +4,29 @@
     <title>FORMS</title>
 </head>
 <body>
-    <FORM METHOD="post" ACTION="mailto:put.your@email.address"></FORM>
-        <INPUT TYPE="text" NAME="name" PLACEHOLDER="Your Name">
-        <INPUT TYPE="email" NAME="email" PLACEHOLDER="Your Email">
-        <TEXTAREA NAME="message" PLACEHOLDER="Your Message"></TEXTAREA>
-        <INPUT TYPE="submit" VALUE="Send">
-    </FORM>
+    <form  method="post">
 
+      <Table>
+        <TR>
+            <TD>Name:</TD>
+            <TD><INPUT TYPE="text" NAME="name" PLACEHOLDER="Your Name" size="35"></TD>
+        </TR>
+        <TR>
+            <TD>Email:</TD>
+            <TD><INPUT TYPE="text" NAME="email" PLACEHOLDER="Your Email" size="35"></TD>
+        </TR>
+        <TR>
+            <TD>Address:</TD>
+            <TD><textarea name="textfield" PLACEHOLDER="Address" cols="50" rows="10"></textarea></TD>
+        </TR>
+        <TR>
+            <TD>Postal code:</TD>
+            <TD><INPUT TYPE="text" PLACEHOLDER="Postal code"  size="40"></TD>
+        </TR>
+        <TR>
+            <TD colspan="2"><INPUT TYPE="submit" VALUE="Send"></TD>
+        </TR>
+      </Table>
+    </form>
 </body>
 </html>
