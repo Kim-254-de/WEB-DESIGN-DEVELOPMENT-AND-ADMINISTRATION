@@ -1,7 +1,44 @@
-<!Doctype html>
-<html>
-    <head>
-        <title>Check Boxes</title>
-    </head>
-    <body>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Store</title>
+</head>
+<body>
+  <h2>Select the Watches You Want to Buy</h2>
+
+  <form action="process_order.php" method="post">
+    <table border="1" cellpadding="8" cellspacing="0">
+      <tr>
+        <th>Select</th>
+        <th>Watch Type</th>
+        <th>Price (USD)</th>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="watch[]" value="50"></td>
+        <td>Classic Leather Watch</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="watch[]" value="80"></td>
+        <td>Digital Sports Watch</td>
+        <td>$80</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="watch[]" value="120"></td>
+        <td>Smart Watch</td>
+        <td>$120</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" name="watch[]" value="200"></td>
+        <td>Luxury Gold Watch</td>
+        <td>$200</td>
+      </tr>
+    </table>
+
+    <br>
+    <input type="submit" value="Submit Order">
+  </form>
+</body>
+</html>
